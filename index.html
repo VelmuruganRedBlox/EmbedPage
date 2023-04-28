@@ -1,22 +1,49 @@
 <!DOCTYPE html>
 <html>
-<title>Online HTML Editor</title>
+<title>Sample Embed Page</title>
 
 <head>
     <title>Sample Embeded Page</title>
     <style>
         .body {
-            max-width: 560px;
+            max-width: 50%;
             margin: 0px auto;
+            text-align: justify;
         }
     </style>
 </head>
 
 <body class="body">
+    <article>
+        <header>
+            <h1>Litit- The next generation of web communities</h1>
+            <p>Published on <time datetime="2023-04-28">April 28, 2023</time></p>
+        </header>
+        <img src="litit-poster.png" style="max-width: 100%;" alt="Placeholder image">
+        <p>On Lit.it watch viral videos & earn points for watching & sharing videos or inviting people.</p>
+        <p>You will never have to pay money. Just use your free time to watch viral videos and invite others. The points you earn can be eventually converted to tokens exchangeable on crypto exchanges, just visit our website lit.it and find out how this works.</p>
+        <p>And as you watch and share videos, you will continue to earn more points. If you are an influencer or a creator and have followers, you can earn points for inviting your followers on your social media explaining to your followers the benefits of joining and providing your personalized link that could be posted on your profile. Every content that you post, could be converted to NFT on the app: pictures, videos, or music.</p>
+        <p>The idea is that Lit.it is a community of people that constantly generate content, the community and the content have value, and everybody has the interest to ensure that there are more users and content on the platform because the more users the bigger the value of the points will be. So you got nothing to lose, you will never ever have to invest or lose any money, you will only continue to earn points.</p>
+        <p>Also, you can send invitations with your link through the messengers you use and your smartphone contacts etc. We will track your referrals via your personal link and you will get instant rewards for all your referrals who join.</p>
+    </article>
+    <article>
+        <header>
+            <h1>How to Embed Video from Litit to your website</h1>
+            <p>Published on <time datetime="2023-04-28">April 28, 2023</time></p>
+        </header>
+        <p>Click on Share button next to the video</p>
+        <img src="Share Button.png" style="max-width: 100%;" alt="Placeholder image">
+        <p>Click on Embed button to generate code for the video</p>
+        <img src="click-embed-button.png" style="max-width: 100%;" alt="Placeholder image">
+        <p>Copy the generated code by clicking on the copy button</p>
+        <img src="copy-code.png" style="max-width: 100%;" alt="Placeholder image">
+        <p>Then just paste the code in the your webpage where you want to embed.</p>
+        <p>The embed video will be shown like this</p>
+    </article>
 
-    <iframe id="myIframe" style="min-width:375px; min-height:745px" src="https://litit-webapp.onrender.com/embed/video/1051694"
-        allow-same-origin title="Litit video player" sandbox="allow-same-origin allow-scripts"
-        allow="autoplay; encrypted-media; picture-in-picture; fullscreen">
+    <iframe id="myIframe" style="min-width:375px; min-height:745px"
+        src="https://litit-webapp.onrender.com/embed/video/1051694" allow-same-origin title="Litit video player"
+        sandbox="allow-same-origin allow-scripts" allow="autoplay; encrypted-media; picture-in-picture; fullscreen">
     </iframe>
     <script>
         window.addEventListener("message", function (event) {
@@ -26,6 +53,7 @@
             }
         });
     </script>
+
 </body>
 
 </html>
