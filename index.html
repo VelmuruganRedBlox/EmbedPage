@@ -14,13 +14,13 @@
 
 <body class="body">
 
-    <iframe id="myIframe" style="min-width:375px; min-height:745px" src="http://localhost:3000/embed/video/1051694"
+    <iframe id="myIframe" style="min-width:375px; min-height:745px" src="https://litit-webapp.onrender.com/embed/video/1051694"
         allow-same-origin title="Litit video player" sandbox="allow-same-origin allow-scripts"
         allow="autoplay; encrypted-media; picture-in-picture; fullscreen">
     </iframe>
     <script>
         window.addEventListener("message", function (event) {
-            if (event.origin !== "http://localhost:3000") return;
+            if (event.origin !== "https://litit-webapp.onrender.com") return;
             if (event.data) {
                 window.open(event.data, "_blank");
             }
